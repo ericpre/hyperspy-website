@@ -7,24 +7,27 @@
 
    news/index
 
-.. grid:: 1 1 2 2
+.. grid:: 1 2 2 2
 
     .. grid-item::
-        :columns: 5 5 5 5
+        :columns: 12 5 5 5
+        :child-align: center
 
         .. image:: _static/hyperspy_banner_light.png
            :alt: HyperSpy logo
            :class: logo, mainlogo, only-light
            :align: center
+           :width: 400
 
         .. image:: _static/hyperspy_dark_banner.svg
            :alt: HyperSpy logo
            :class: logo, mainlogo, only-dark
            :align: center
+           :width: 400
 
 
     .. grid-item::
-        :columns: 7 7 7 7
+        :columns: 12 7 7 7
 
         .. div:: sd-text-left sd-font-weight-bold sd-fs-4 sd-width-50
 
@@ -34,8 +37,9 @@
         .. button-link:: https://hyperspy.org/hyperspy-doc/current/user_guide/index.html
             :color: primary
             :shadow:
+            :class: sd-rounded-3
 
-            Getting Started
+            :fa:`rocket` Get Started
 
 
 .. grid:: 2 3 3 3
